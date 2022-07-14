@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400&family=Work+Sans:ital,wght@0,100;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Work Sans', sans-serif; 
+    box-sizing: border-box;
+    background-color: #222242;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+.primeira{
+    margin-left: 36px;
+}
+    .logo{
+        margin-top:50px;
+        width: 389px;
+        height: 94px;
+    }
+    .chamada{
+        margin-top:92px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #19b5d1;
+    }
+    .subcha{
+        margin-top:9px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .textinho{
+        margin-top:9px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+    .email{
+        margin-top:10rem;
+        font-family: 'League Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 138.73%;
+        color: #A8A8A8;
+    }
+
+        form{
+        
+
+        }
+        label{ 
+            display:flex;
+        }
+        input{
+            display:flex;
+            width:50rem;
+            height:3.5rem;
+            background-color: #FFFFFF;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            font-size:18px;
+            color: black;
+            border-radius: 15px;
+            font-weight: 600;
+        }
+        button img{
+            width: 3.5rem;
+            background: #8257E5;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+
+.conjset{
+    display: flex;
+    align-items: center;
+    margin-top:10rem;
+}
+
+.ler{
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #8257E5;
+}
+.seta{
+    margin-left: 0.5rem;
+    color: #8257E5;
+}
+section{
+    display:flex;
+    justify-content: space-between;
+    width: 720px;
+    height: 900px;
+}
+
+
+aside{
+  width: 1175px;
+  height:784px;
+
+}
+aside > img{
+    width: 49vw;
+    height:99vh;
+    object-fit: cover;
+
+}
